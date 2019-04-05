@@ -1,0 +1,112 @@
+{
+  "groups": [
+    {
+      "name": "mashup.artist-search-service.coverartarchive-service",
+      "type": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties",
+      "sourceType": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.discogs-service",
+      "type": "com.mashup.music.search.external.discogs.DiscogsProperties",
+      "sourceType": "com.mashup.music.search.external.discogs.DiscogsProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.musicbranz-service",
+      "type": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties",
+      "sourceType": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.throttling",
+      "type": "com.mashup.music.search.config.ThrottlingConfig",
+      "sourceType": "com.mashup.music.search.config.ThrottlingConfig"
+    },
+    {
+      "name": "spring.security.user",
+      "type": "com.mashup.music.search.config.SpringSecurityProperties",
+      "sourceType": "com.mashup.music.search.config.SpringSecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mashup.artist-search-service.coverartarchive-service.cache-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.coverartarchive-service.path",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.coverartarchive-service.timeout-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mashup.artist-search-service.coverartarchive-service.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.coverartarchive.CoverArtArchiveProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.discogs-service.cache-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.discogs.DiscogsProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.discogs-service.path",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.discogs.DiscogsProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.discogs-service.timeout-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashup.music.search.external.discogs.DiscogsProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mashup.artist-search-service.discogs-service.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.discogs.DiscogsProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.musicbranz-service.cache-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.musicbranz-service.path",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.musicbranz-service.timeout-seconds",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "mashup.artist-search-service.musicbranz-service.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.external.musicbrainz.MusicBrainzProperties"
+    },
+    {
+      "name": "mashup.artist-search-service.throttling.request-per-second",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashup.music.search.config.ThrottlingConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "mashup.artist-search-service.throttling.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashup.music.search.config.ThrottlingConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "spring.security.user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mashup.music.search.config.SpringSecurityProperties"
+    }
+  ],
+  "hints": []
+}
